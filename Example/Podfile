@@ -1,0 +1,9 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+pod 'SwiftLint'
+
+target 'SwiftStart_Tests' do
+  pod 'SwiftStart', :path => '../'
+end
